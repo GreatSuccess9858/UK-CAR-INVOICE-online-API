@@ -1,0 +1,51 @@
+#panel-body {
+    width: 100%;
+    padding-left: 10%;
+}
+
+#invoice_titlebar {    
+    height: 50px;
+    margin-left: 3%;
+    background-color: white;
+    margin-right: 1%;
+    border: 1px solid lightgray;
+}
+
+/* #full_name, #client_email {
+    width: 50%;
+} */
+
+/* #street_address {
+    width: 50%;
+} */
+#client_info {
+    margin-left: 3%;
+}
+
+#client_detail {
+    background-color: bisque;
+    /* margin-left:5%; */
+    padding-top:3%;
+    padding-bottom: 3%;
+}
+
+#client_select {
+    /* width: 95%; */
+    /* margin-left: 5%; */
+}
+
+
+#vehicle_info {
+    background-color: white;
+    margin-left:3%;
+    border: 1px solid lightgray;
+}
+
+#vInfoTable {
+    margin-top: 10px;
+}
+
+#vInfoTable th {
+    text-align: right;
+    padding-top: 5%;
+}

@@ -1,0 +1,39 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch-poll": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --watch-poll --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "prod": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "devDependencies": {
+    "@claviska/jquery-minicolors": "^2.3.5",
+    "axios": "^0.21.4",
+    "bootstrap": "3.4.1",
+    "bootstrap-datepicker": "^1.9.0",
+    "bootstrap-sass": "^3.4.1",
+    "bootstrapvalidator": "^0.5.4",
+    "datatables.net": "^1.11.2",
+    "datatables.net-bs": "^1.11.2",
+    "datatables.net-responsive": "^2.2.9",
+    "datatables.net-responsive-bs": "^2.2.9",
+    "font-awesome": "^4.7.0",
+    "imagemin": "^8.0.1",
+    "jquery": "^3.6.0",
+    "jquery-chained": "1.0",
+    "jquery.cookie": "^1.4.1",
+    "laravel-mix": "^6.0.31",
+    "lodash": "^4.17.21",
+    "popper.js": "^1.16.1",
+    "resolve-url-loader": "^4.0.0",
+    "sass": "^1.41.1",
+    "sass-loader": "^12.1.0",
+    "select2": "^4.1.0-rc.0",
+    "select2-bootstrap-css": "^1.4.6",
+    "sweetalert2": "^11.1.5",
+    "vue-template-compiler": "^2.6.14"
+  }
+}
